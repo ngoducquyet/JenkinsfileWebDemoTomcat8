@@ -13,7 +13,7 @@
 <body>
 Jenkins demo !!!
 <br>
-Chúc các anh vui vẻ.
+Have a nice day!
 Em Quyet Ngo,
 Test lan 2
 </body>
