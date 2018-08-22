@@ -13,8 +13,7 @@
 <body>
 Jenkins demo !!!
 <br>
-Have a nice day!
 Em Quyet Ngo,
-Test lan 2
+Test lan 3
 </body>
 </html>
