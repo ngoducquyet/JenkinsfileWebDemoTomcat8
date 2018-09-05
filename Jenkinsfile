@@ -20,7 +20,6 @@ node{
        slackSend baseUrl: 'https://ngoducquyet.slack.com/services/hooks/jenkins-ci/',
        channel: '#build',
        color: 'good', 
-       message: 'Welcome to Jenkins, Slack!', 
+       message: 'Welcome to Jenkins, Slack!'
    }
-
 }
