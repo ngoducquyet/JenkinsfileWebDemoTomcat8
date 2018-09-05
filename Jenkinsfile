@@ -8,8 +8,8 @@ node{
       sh "${mvnHome}/bin/mvn clean package"
    }
    stage('Deploy to Tomcat'){
-      sh 'cp target/*.war /opt/tomcat9/webapps'
-      sh 'rm -rf /opt/tomcat9/webapps/springwebdemo'
+      sh 'sudo cp target/*.war /opt/tomcat9/webapps'
+      sh 'sudo rm -rf /opt/tomcat9/webapps/springwebdemo'
    }
    stage('Email Notification'){
       mail bcc: '', body: '''Hi Welcome to jenkins email alerts
