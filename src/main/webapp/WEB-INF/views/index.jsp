@@ -13,8 +13,6 @@
 <body>
 Jenkins demo !!!
 <br>
-Em Quyet Ngo,
-VN Vo dich
-Test 31 Aug 2018
+HPBD
 </body>
 </html>
