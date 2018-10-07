@@ -12,7 +12,7 @@ node{
    }
    stage('Deploy to Tomcat'){
       sh 'sudo cp target/*.war /opt/tomcat9/webapps'
-      sh 'sudo rm -rf /opt/tomcat9/webapps/springwebdemo'
+      sh 'sudo rm -rf /opt/tomcat/webapps/springwebdemo'
    }
    stage('Email Notification'){
       mail bcc: '', body: '''Hi Welcome to jenkins email alerts
