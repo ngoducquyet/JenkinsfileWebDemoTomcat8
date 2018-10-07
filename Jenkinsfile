@@ -11,7 +11,7 @@ node{
       sh "${mvnHome}/bin/mvn clean package"
    }
    stage('Deploy to Tomcat'){
-      sh 'sudo cp target/*.war /opt/tomcat9/webapps'
+      sh 'sudo cp target/*.war /opt/tomcat/webapps'
       sh 'sudo rm -rf /opt/tomcat/webapps/springwebdemo'
    }
    stage('Email Notification'){
